@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by adrien (Institut De L'Elevage) -->
+<!-- version 1.2 modifiée du 03/02/2010-->
+<xsd:schema xmlns="urn:fr:agri:elevage:codelist:NumberPlateCountryCode:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:fr:agri:elevage:codelist:NumberPlateCountryCode:1">
+	<xsd:simpleType name="NumberPlateCountryCodeType">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="F"/>
+			<xsd:enumeration value="FR"/>
+			<xsd:enumeration value="GB"/>
+			<xsd:enumeration value="IRL"/>
+			<xsd:enumeration value="I"/>
+			<xsd:enumeration value="E"/>
+			<xsd:enumeration value="EST"/>
+			<xsd:enumeration value="NL"/>
+			<xsd:enumeration value="D"/>
+			<xsd:enumeration value="CH"/>
+			<xsd:enumeration value="DK"/>
+			<xsd:enumeration value="B"/>
+			<xsd:enumeration value="L"/>
+			<xsd:enumeration value="PL"/>
+			<xsd:enumeration value="A"/>
+			<xsd:enumeration value="AND"/>
+			<xsd:enumeration value="BG"/>
+			<xsd:enumeration value="CZ"/>
+			<xsd:enumeration value="GR"/>
+			<xsd:enumeration value="HU"/>
+			<xsd:enumeration value="H"/>
+			<xsd:enumeration value="HR"/>
+			<xsd:enumeration value="LT"/>
+			<xsd:enumeration value="LV"/>
+			<xsd:enumeration value="M"/>
+			<xsd:enumeration value="MK"/>
+			<xsd:enumeration value="CG"/>
+			<xsd:enumeration value="N"/>
+			<xsd:enumeration value="P"/>
+			<xsd:enumeration value="RO"/>
+			<xsd:enumeration value="RUS"/>
+			<xsd:enumeration value="S"/>
+			<xsd:enumeration value="SK"/>
+			<xsd:enumeration value="SI"/>
+			<xsd:enumeration value="SLO"/>
+			<xsd:enumeration value="SRB"/>
+			<xsd:enumeration value="UA"/>
+			<xsd:enumeration value="TR"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

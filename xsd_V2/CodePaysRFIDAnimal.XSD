@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns="urn:fr:agri:elevage:codelist:CodePaysRFIDAnimal:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:fr:agri:elevage:codelist:CodePaysRFIDAnimal:1">
+	<xsd:simpleType name="TypeCodePaysRFIDAnimal">
+		<xsd:annotation>
+			<xsd:documentation><![CDATA[Code pays]]></xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="056"/>
+			<xsd:enumeration value="100"/>
+			<xsd:enumeration value="203"/>
+			<xsd:enumeration value="208"/>
+			<xsd:enumeration value="276"/>
+			<xsd:enumeration value="233"/>
+			<xsd:enumeration value="372"/>
+			<xsd:enumeration value="300"/>
+			<xsd:enumeration value="724"/>
+			<xsd:enumeration value="250"/>
+			<xsd:enumeration value="380"/>
+			<xsd:enumeration value="196"/>
+			<xsd:enumeration value="428"/>
+			<xsd:enumeration value="440"/>
+			<xsd:enumeration value="442"/>
+			<xsd:enumeration value="348"/>
+			<xsd:enumeration value="470"/>
+			<xsd:enumeration value="528"/>
+			<xsd:enumeration value="040"/>
+			<xsd:enumeration value="616"/>
+			<xsd:enumeration value="620"/>
+			<xsd:enumeration value="642"/>
+			<xsd:enumeration value="705"/>
+			<xsd:enumeration value="703"/>
+			<xsd:enumeration value="246"/>
+			<xsd:enumeration value="752"/>
+			<xsd:enumeration value="826"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

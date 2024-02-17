@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns="urn:fr:agri:elevage:codelist:CodePaysVisuelAnimal:1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:fr:agri:elevage:codelist:CodePaysVisuelAnimal:1">
+	<xsd:simpleType name="TypeCodePaysVisuelAnimal">
+		<xsd:annotation>
+			<xsd:documentation><![CDATA[Code pays]]></xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="BE"/>
+			<xsd:enumeration value="BG"/>
+			<xsd:enumeration value="CZ"/>
+			<xsd:enumeration value="DK"/>
+			<xsd:enumeration value="DE"/>
+			<xsd:enumeration value="EE"/>
+			<xsd:enumeration value="IE"/>
+			<xsd:enumeration value="GR"/>
+			<xsd:enumeration value="ES"/>
+			<xsd:enumeration value="FR"/>
+			<xsd:enumeration value="IT"/>
+			<xsd:enumeration value="CY"/>
+			<xsd:enumeration value="LV"/>
+			<xsd:enumeration value="LT"/>
+			<xsd:enumeration value="LU"/>
+			<xsd:enumeration value="HU"/>
+			<xsd:enumeration value="MT"/>
+			<xsd:enumeration value="NL"/>
+			<xsd:enumeration value="AT"/>
+			<xsd:enumeration value="PL"/>
+			<xsd:enumeration value="PT"/>
+			<xsd:enumeration value="RO"/>
+			<xsd:enumeration value="SI"/>
+			<xsd:enumeration value="SK"/>
+			<xsd:enumeration value="FI"/>
+			<xsd:enumeration value="SE"/>
+			<xsd:enumeration value="GB"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>
