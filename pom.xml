@@ -3,6 +3,13 @@
   <groupId>ConfoSimoc</groupId>
   <artifactId>ConfoSimoc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+	    <repository>
+	        <id>local-maven-repo</id>
+	        <url>${basedir}/lib/</url>
+	    </repository>
+	</repositories>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -14,6 +21,15 @@
       </resource>
     </resources>
     <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+              <configuration>
+    			<includeSystemScope>true</includeSystemScope>
+  			</configuration>
+
+        </plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -45,5 +61,88 @@
   		<groupId>org.projectlombok</groupId>
   		<artifactId>lombok</artifactId>
   	</dependency>
-  </dependencies>
+  	<dependency>
+         <groupId>jaxb-impl-2.0</groupId>
+         <artifactId>jaxb-impl-2.0</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${jaxb-impl-2.0-systemPath}</systemPath>
+    </dependency>
+  	<dependency>
+         <groupId>simoc-xml-2.0</groupId>
+         <artifactId>simoc-xml-2.0</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${simoc-xml-2.0-systemPath}</systemPath>
+    </dependency>
+  	<dependency>
+         <groupId>activation-1.0.2</groupId>
+         <artifactId>activation-1.0.2</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${activation-1.0.2-systemPath}</systemPath>
+    </dependency>
+    <dependency>
+		<groupId>activation-1.1</groupId>
+    	<artifactId>activation-1.1</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${activation-1.1-systemPath}</systemPath>
+    </dependency>
+    <dependency>
+		<groupId>avalon-framework-4.1.3</groupId>
+		<artifactId>avalon-framework-4.1.3</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${avalon-framework-4.1.3-systemPath}</systemPath>
+	</dependency>
+     <dependency>
+		<groupId>commons-logging-1.1</groupId>
+		<artifactId>commons-logging-1.1</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${commons-logging-1.1-systemPath}</systemPath>
+	</dependency>
+     <dependency>
+		<groupId>jaxb-api-2.1</groupId>
+		<artifactId>jaxb-api-2.1</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${jaxb-api-2.1-systemPath}</systemPath>
+	</dependency>
+     <dependency>
+		<groupId>internalJar</groupId>
+		<artifactId>jaxb-xjc-2.0</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${jaxb-xjc-2.0-systemPath}</systemPath>
+	</dependency>
+     <dependency>
+		<groupId>internalJar</groupId>
+		<artifactId>jsr173_api-1.0</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${jsr173_api-1.0-systemPath}</systemPath>
+	</dependency>
+     <dependency>
+		<groupId>internalJar</groupId>
+		<artifactId>log4j-1.2.14</artifactId>
+        <scope>system</scope>
+        <version>1.0</version>
+        <systemPath>${log4j-1.2.14-systemPath}</systemPath>
+	</dependency>
+ </dependencies>
+  <properties>
+      <simoc-xml-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib//simoc-xml-2.0.jar</simoc-xml-2.0-systemPath>
+      <jaxb-impl-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-impl-2.0.jar</jaxb-impl-2.0-systemPath>
+      <activation-1.0.2-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/activation-1.0.2.jar</activation-1.0.2-systemPath>
+      <activation-1.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/activation-1.1.jar</activation-1.1-systemPath>
+      <avalon-framework-4.1.3-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/avalon-framework-4.1.3.jar</avalon-framework-4.1.3-systemPath>
+      <commons-logging-1.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/commons-logging-1.1.jar</commons-logging-1.1-systemPath>
+      <jaxb-api-2.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-api-2.1.jar</jaxb-api-2.1-systemPath>
+      <jaxb-xjc-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-xjc-2.0.jar</jaxb-xjc-2.0-systemPath>
+      <jsr173_api-1.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jsr173_api-1.0.jar</jsr173_api-1.0-systemPath>
+      <log4j-1.2.14-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/log4j-1.2.14.jar</log4j-1.2.14-systemPath>
+  	<start-class>fr.ovinfo.confosimoc.GismoConfoSimoc</start-class>
+  </properties>
 </project>
