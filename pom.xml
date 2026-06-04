@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ConfoSimoc</groupId>
   <artifactId>ConfoSimoc</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <repositories>
 	    <repository>
 	        <id>local-maven-repo</id>
@@ -133,16 +133,16 @@
 	</dependency>
  </dependencies>
   <properties>
-      <simoc-xml-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib//simoc-xml-2.0.jar</simoc-xml-2.0-systemPath>
-      <jaxb-impl-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-impl-2.0.jar</jaxb-impl-2.0-systemPath>
-      <activation-1.0.2-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/activation-1.0.2.jar</activation-1.0.2-systemPath>
-      <activation-1.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/activation-1.1.jar</activation-1.1-systemPath>
-      <avalon-framework-4.1.3-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/avalon-framework-4.1.3.jar</avalon-framework-4.1.3-systemPath>
-      <commons-logging-1.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/commons-logging-1.1.jar</commons-logging-1.1-systemPath>
-      <jaxb-api-2.1-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-api-2.1.jar</jaxb-api-2.1-systemPath>
-      <jaxb-xjc-2.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jaxb-xjc-2.0.jar</jaxb-xjc-2.0-systemPath>
-      <jsr173_api-1.0-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/jsr173_api-1.0.jar</jsr173_api-1.0-systemPath>
-      <log4j-1.2.14-systemPath>C:/Users/xavier/zip_confosimoc-v3.16-win/lib/log4j-1.2.14.jar</log4j-1.2.14-systemPath>
+      <simoc-xml-2.0-systemPath>/home/beaufilx/git/confoSimoc/lib/simoc-xml-2.0.jar</simoc-xml-2.0-systemPath>
+      <jaxb-impl-2.0-systemPath>/home/beaufilx/git/confoSimoc/lib/jaxb-impl-2.0.jar</jaxb-impl-2.0-systemPath>
+      <activation-1.0.2-systemPath>/home/beaufilx/git/confoSimoc/lib/activation-1.0.2.jar</activation-1.0.2-systemPath>
+      <activation-1.1-systemPath>/home/beaufilx/git/confoSimoc/lib/activation-1.1.jar</activation-1.1-systemPath>
+      <avalon-framework-4.1.3-systemPath>/home/beaufilx/git/confoSimoc/lib/avalon-framework-4.1.3.jar</avalon-framework-4.1.3-systemPath>
+      <commons-logging-1.1-systemPath>/home/beaufilx/git/confoSimoc/lib/commons-logging-1.1.jar</commons-logging-1.1-systemPath>
+      <jaxb-api-2.1-systemPath>/home/beaufilx/git/confoSimoc/lib/jaxb-api-2.1.jar</jaxb-api-2.1-systemPath>
+      <jaxb-xjc-2.0-systemPath>/home/beaufilx/git/confoSimoc/lib/jaxb-xjc-2.0.jar</jaxb-xjc-2.0-systemPath>
+      <jsr173_api-1.0-systemPath>/home/beaufilx/git/confoSimoc/lib/jsr173_api-1.0.jar</jsr173_api-1.0-systemPath>
+      <log4j-1.2.14-systemPath>/home/beaufilx/git/confoSimoc/lib/log4j-1.2.14.jar</log4j-1.2.14-systemPath>
   	<start-class>fr.ovinfo.confosimoc.GismoConfoSimoc</start-class>
   </properties>
 </project>

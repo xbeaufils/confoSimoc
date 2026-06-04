@@ -23,7 +23,7 @@
     	</encoder>
   	</appender> 
 
-	<logger name="fr.oovinfo" level="debug"
+	<logger name="fr.ovinfo" level="debug"
 		additivity="false">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="FILE"></appender-ref>
