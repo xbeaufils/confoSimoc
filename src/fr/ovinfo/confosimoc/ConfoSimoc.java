@@ -347,29 +347,15 @@ public class ConfoSimoc {
 	    
 	    private boolean Initialisation(/*String[] args*/) {
 	        boolean resultat = true;
-/*	        if (args.length > 1) {
-	            System.err.println("Nombre de paramètres de l'application invalide.");
-	            resultat = false;
-	        } else if (args.length == 1) {
-	            File arg = new File(args[0]);
-	            if (!arg.isDirectory() && !arg.isFile()) {
-	                System.err.println("Le paramètre [" + args[0] + "] n'est ni un répertoire ni un fichier valide.");
-	                resultat = false;
-	            } else if (arg.isDirectory()) {
-	                repTravail = new File(args[0]);
-	            }
-	        } else {
-	            repTravail = new File(REP_TRAVAIL_DEFAUT);
-	        }
-*/	        repTravail = new File(this.xmlRepository);
+	        repTravail = new File(this.xmlRepository);
 	        fichierXsdV111 = new File(REP_XSD_V111, FICHIER_XSD_V111);
 	        if (!fichierXsdV111.exists()) {
-	            System.err.println("Le répertoire " + fichierXsdV111.getAbsolutePath() + " n'existe pas.");
+	            log.error("Le répertoire {} n'existe pas.", fichierXsdV111.getAbsolutePath());
 	            resultat = false;
 	        }
 	        fichierXsdV2 = new File(REP_XSD_V2, FICHIER_XSD_V2);
 	        if (!fichierXsdV2.exists()) {
-	            System.err.println("Le répertoire " + fichierXsdV2.getAbsolutePath() + " n'existe pas.");
+	            log.error("Le répertoire {} n'existe pas.", fichierXsdV2.getAbsolutePath() );
 	            resultat = false;
 	        }
 	        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -381,7 +367,7 @@ public class ConfoSimoc {
 	            dateV2depassee = false;
 	            return resultat;
 	        } catch (Exception e) {
-	            System.err.println("Erreur lors de la recherche si schéma de référence V111 autorisé");
+	            log.error("Erreur lors de la recherche si schéma de référence V111 autorisé");
 	            return false;
 	        }
 	    }
